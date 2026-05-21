@@ -1,0 +1,25 @@
+# Build artifacts
+ros1_ws/devel/
+ros1_ws/build/
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+bridge_ws/build/
+bridge_ws/install/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
