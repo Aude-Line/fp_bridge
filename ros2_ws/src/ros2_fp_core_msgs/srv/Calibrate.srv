@@ -1,0 +1,5 @@
+int64 script_id
+string script_name
+---
+bool success
+string message

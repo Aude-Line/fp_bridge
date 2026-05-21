@@ -1,0 +1,17 @@
+-
+  ros1_package_name: 'fp_core_msgs'
+  ros2_package_name: 'ros2_fp_core_msgs'
+
+-
+  ros1_package_name: 'fp_core_msgs'
+  ros1_message_name: 'JointAngles'
+  ros2_package_name: 'ros2_fp_core_msgs'
+  ros2_message_name: 'JointAngles'
+  fields_1_to_2:
+    positions: 'positions'
+
+-
+  ros1_package_name: 'fp_core_msgs'
+  ros1_service_name: 'SimplePath'
+  ros2_package_name: 'ros2_fp_core_msgs'
+  ros2_service_name: 'SimplePath'
