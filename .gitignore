@@ -6,6 +6,7 @@ ros2_ws/install/
 ros2_ws/log/
 bridge_ws/build/
 bridge_ws/install/
+bridge_ws/log/
 
 # IDE and editor files
 .vscode/
