@@ -33,9 +33,11 @@ Key modifications made to the standard setup:
 - Custom mapping rules require recompiling the bridge (which was also necessary due to the above modifications of the bridge).
 
 Reference guides:
+- [General guide](https://docs.ros.org/en/humble/p/ros1_bridge/)
 - [Using ros1_bridge on Jammy upstream](https://docs.ros.org/en/humble/How-To-Guides/Using-ros1_bridge-Jammy-upstream.html)
 - [ROS 2 Humble — Ubuntu development setup](https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setup.html)
 - [ros1_bridge bool patch (PR #446)](https://github.com/ros2/ros1_bridge/pull/446/changes/8e422c4c644526c018fee107790400eb297ff9a2#diff-1552bca16b8f3f0de4bf527fd4661c21d93318fdfd404d1af86613fad56cabc9R362-R407)
+- [custom mapping rules](https://ros1-bridge.readthedocs.io/en/latest/index.html)
 
 ## Install build tools (required for C++)
 
@@ -182,7 +184,7 @@ This only shows supported message pairs. It does not require the bridge to conne
 
 For ROS1/bridge communication with the robot master, set `ROS_MASTER_URI` and, if needed, `ROS_IP` to an IP reachable by the robot.
 
-In WSL, `ROS_IP` can change between sessions; re-check with `hostname -I`.
+In WSL, `ROS_IP` can change between sessions; re-check with `hostname -I` to get the IP of WSL.
 
 Get your available IPs:
 
