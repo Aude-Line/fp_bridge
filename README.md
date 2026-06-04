@@ -11,6 +11,16 @@ fp_bridge/
 └── bridge_ws/      # bridge workspace (ros1_bridge with patches)
 ```
 
+## Robot network setup
+Follow the instuctions in the quick start guide to setup the ethernet communication to the robot.
+Then you can also access the myP interface to get an other way to access to the robot fonctions and sensor values. Just be careful as
+- if the robot needs to calibrate and a myP windows is open, a popup will appear in this windows and the robot will bloc the calibration until it's validated
+- it the robot is connected on either ros or myP, it can not connect to the other one
+- if you want to use hold/release function, use the myP interface instead of ros, there is a know problem with these function in ros in the myp 1.4.4 version.
+For more info on the fonctions, dont hesitate to read the documentation in the PRob3_usefulDocuemntation. Just know that the ros functions are a subset of the script fonction available in myP, with a less diverse set of parameters.
+
+Also it seems like, if the robot is connected via myP and the esp via ROS, the microros agent disconnect whenever a command is run through the myP windows. To be tested more throughfully if you need to use it.
+
 ## Installation
 
 ### Prerequisites
